@@ -1,0 +1,9 @@
+const mesclaObjetos = (obj1, obj2) => {
+    return { ...obj1, ...obj2 };
+  }
+  
+  
+  const objUm = { a: 1, b: 2 };// Exemplo do exercício
+  const objDois = { c: 3, d: 4 };
+  const novoObjeto = mesclaObjetos(objUm, objDois);
+  console.log(novoObjeto);
